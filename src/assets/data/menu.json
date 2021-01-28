@@ -65,5 +65,15 @@
     "icon": "code-working",
     "name": "Progress Bar y Range",
     "redirectTo": "/progressbar"
+  },
+  {
+    "icon": "arrow-down-circle-outline",
+    "name": "Refresher",
+    "redirectTo": "/refresher"
+  },
+  {
+    "icon": "albums",
+    "name": "Slides",
+    "redirectTo": "/slides"
   }
 ]
