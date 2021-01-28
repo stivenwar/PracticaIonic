@@ -1,0 +1,69 @@
+[
+  {
+    "icon": "american-football-outline",
+    "name": "Action Sheet",
+    "redirectTo": "/action-sheet"
+  },
+  {
+    "icon": "logo-apple-appstore",
+    "name": "Alert",
+    "redirectTo": "/alert"
+  },
+  {
+    "icon": "beaker",
+    "name": "Avatar",
+    "redirectTo": "/avatar"
+  },
+  {
+    "icon": "radio-button-on",
+    "name": "Buttons",
+    "redirectTo": "/buttons"
+  },
+  {
+    "icon": "card",
+    "name": "Cards",
+    "redirectTo": "/card"
+  },
+  {
+    "icon": "checkmark-circle-outline",
+    "name": "Checkbox",
+    "redirectTo": "/check"
+  },
+  {
+    "icon": "add-circle-outline",
+    "name": "Fab",
+    "redirectTo": "/fab"
+  },
+  {
+    "icon": "hammer",
+    "name": "Inputs y Forms",
+    "redirectTo": "/input"
+  },
+  {
+    "icon": "list",
+    "name": "Listas y Sliders",
+    "redirectTo": "/list"
+  }
+,
+  {
+    "icon": "reorder-four-outline",
+    "name": "Listas y Reorder",
+    "redirectTo": "/list-reorder"
+  },
+  {
+    "icon": "cog",
+    "name": "Tabs",
+    "redirectTo": "/tabs"
+  },
+  {
+    "icon": "infinite",
+    "name": "Infinite Scroll",
+    "redirectTo": "/infinite-scroll"
+  }
+,
+  {
+    "icon": "code-working",
+    "name": "Progress Bar y Range",
+    "redirectTo": "/progressbar"
+  }
+]

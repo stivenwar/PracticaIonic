@@ -1,0 +1,30 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+
+    <ion-title class="ion-text-center">Avatar</ion-title>
+    <ion-buttons slot="end">
+      <ion-avatar>
+        <img src="assets/images/kimetsu.jpg" alt=""/>
+      </ion-avatar>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<ion-chip color="primary" *ngFor="let i of [1,1,1,1,1,1,1]">
+  <ion-avatar>
+    <img src="assets/images/kimetsu.jpg" alt="kimetsu"/>
+  </ion-avatar>
+  <ion-label>KIMETSU</ion-label>
+</ion-chip>
+
+  <ion-list *ngFor="let i of [1,1,1,1,1,1,1]">
+    <ion-avatar>
+      <img src="assets/images/kimetsu.jpg" alt="kimetsu"/>
+    </ion-avatar>
+    <ion-label>KIMETSU</ion-label>
+  </ion-list>
+</ion-content>

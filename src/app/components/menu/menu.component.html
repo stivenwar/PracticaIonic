@@ -1,0 +1,23 @@
+<!-- side start/end para que el menu salga desde las izquienda o la derecha-->
+<!-- contendID para cargar el menu dandole una id-->
+<!--menuId para cargar un boton para vover al menu -->
+
+<ion-menu side="start" menuId="primerMenu" contentId="principal">
+  <ion-header>
+    <ion-toolbar color="primary">
+      <ion-title>Menú Principal</ion-title>
+    </ion-toolbar>
+  </ion-header>
+<ion-content>
+  <ion-list>
+    <!-- muestro cada elemento de mi array componentes-->
+    <ion-menu-toggle *ngFor="let c of componentes | async">
+      <ion-item [routerLink]="c.redirectTo" detail>
+        <ion-icon slot="start" [name]="c.icon"></ion-icon>
+        <ion-label>{{c.name}}</ion-label>
+      </ion-item>
+    </ion-menu-toggle>
+
+  </ion-list>
+</ion-content>
+</ion-menu>

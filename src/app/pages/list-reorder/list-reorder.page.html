@@ -1,0 +1,13 @@
+<app-cabecera titulo="Listas y Reorder"></app-cabecera>
+
+<ion-content>
+
+  <ion-list>
+    <ion-reorder-group [disabled]="false" (ionItemReorder)="reorder($event)">
+      <ion-item *ngFor="let p of personajes">
+        <ion-label>{{p}}</ion-label>
+        <ion-reorder slot="end"></ion-reorder>
+      </ion-item>
+    </ion-reorder-group>
+  </ion-list>
+</ion-content>

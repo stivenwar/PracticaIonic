@@ -1,0 +1,81 @@
+<app-cabecera titulo="Cards"></app-cabecera>
+
+<ion-content>
+
+    <!-- MODE para elegir el tipo de tarjeta de ios para aple omd para Android-->
+    <ion-card mode="ios" color="primary">
+        <ion-card-header>
+            <ion-card-title>Titulo de la carta</ion-card-title>
+            <ion-card-subtitle> Subtitulo de la carta</ion-card-subtitle>
+
+        </ion-card-header>
+
+        <ion-card-content>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Esse harum molestiae necessitatibus nihil nobis possimus quibusdam,
+            recusandae repellat sint tenetur. Asperiores autem cupiditate,
+            et nesciunt quasi veritatis voluptas? Error, nulla!
+            <ion-card mode="ios" color="secondary">
+                <ion-card-header>
+                    <ion-card-title>Titulo de la carta</ion-card-title>
+                    <ion-card-subtitle> Subtitulo de la carta</ion-card-subtitle>
+
+                </ion-card-header>
+
+                <ion-card-content>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Esse harum molestiae necessitatibus nihil nobis possimus quibusdam,
+                    recusandae repellat sint tenetur. Asperiores autem cupiditate,
+                    et nesciunt quasi veritatis voluptas? Error, nulla!
+
+                </ion-card-content>
+            </ion-card>
+        </ion-card-content>
+
+
+    </ion-card>
+
+    <ion-card>
+        <ion-item color="primary">
+            <ion-icon color="warning" slot="start" name="pin"></ion-icon>
+            <ion-label>Marcador</ion-label>
+        </ion-item>
+        <!-- maquetar-->
+        <ion-card-content>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Ab aliquid architecto asperiores delectus dignissimos eligendi enim e
+            x magnam nam necessitatibus neque nisi provident quae, quasi similique,
+            ut vel veritatis voluptas.
+        </ion-card-content>
+    </ion-card>
+
+    <!--Tarjeta con imagen -->
+    <ion-card mode="ios" color="medium" routerLink="/avatar">
+        <ion-img class="tamaño" src="/assets/images/kimetsu.jpg" ></ion-img>
+        <ion-card-header>
+            <ion-card-title>
+                Titulo de la tarjeta
+            </ion-card-title>
+        </ion-card-header>
+    </ion-card>
+    <ion-card-content>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Adipisci at consectetur cupiditate dicta est exercitationem
+        impedit laborum maiores perferendis porro quia, quis sint voluptatibus!
+        Consequatur eligendi eum expedita sapiente soluta?
+    </ion-card-content>
+    <ion-card mode="ios" (click)="mostrarEvento()">
+        <ion-img src="/assets/shapes.svg"></ion-img>
+        <ion-card-header>
+            <ion-card-subtitle color="warning">Subtitulo Tarjeta</ion-card-subtitle>
+            <ion-card-title>Titulo tarjeta</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Adipisci at consectetur cupiditate dicta est exercitationem
+            impedit laborum maiores perferendis porro quia, quis sint voluptatibus!
+            Consequatur eligendi eum expedita sapiente soluta?
+        </ion-card-content>
+    </ion-card>
+
+</ion-content>

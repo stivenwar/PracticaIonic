@@ -1,0 +1,14 @@
+<app-cabecera titulo="Checkbox>"></app-cabecera>
+
+<ion-content>
+
+<ion-list>
+  <ion-item *ngFor="let d of data" (click)="Actualizar(d)">
+    <ion-label>{{d.name}}</ion-label>
+    <ion-label>Etiqueta</ion-label>
+    <!--ngModel nos permite guardar dinamicamente la informacion-->
+    <ion-checkbox [(ngModel)]="d.selected" [color]="d.name" mode="ios"></ion-checkbox>
+  </ion-item>
+</ion-list>
+
+</ion-content>
