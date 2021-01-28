@@ -75,5 +75,11 @@
     "icon": "albums",
     "name": "Slides",
     "redirectTo": "/slides"
+  },
+  {
+    "icon": "flame",
+    "name": "Popover",
+    "redirectTo": "/popover"
   }
+
 ]
